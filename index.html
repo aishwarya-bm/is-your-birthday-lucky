@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is Your Birthday Lucky</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="bg">
+    <div class="main">
+        <div >
+            <section class="heading">
+                <h1>Is your birthday lucky?</h1>
+            </section>
+            <section class="section-notice">
+                <div id="notice"><div>Privacy Notice! We are not storing your data.</div> <a href="#" id="close">x</a></div>  
+             </section>
+            <form class="form-birthday">
+                <div>
+                    <h2 style="font-weight: 800;">Enter Your Birthdate and lucky number to continue...</h2>
+                    <div class="label">
+                        <label for="birthdate">Select your birth date</label> 
+                    </div>
+                    
+                    
+                    <input type="date" id="birthdate" required>
+                    <div class="label">
+                        <label for="luckynum">Enter your Lucky Number:</label>
+                    </div>
+                    <input type="number" id="luckynum" required>
+                    <br>
+                    <button id="check">check</button>
+                </div>
+            </form> 
+
+             <section class="output">
+                 <div id="happy">
+                    <div>Hurray!!You are a lucky person!</div>
+                    <img src="./images/happy.png"/>
+                 </div>
+                 <div id="oops">
+                    <div>Oops!!Your birthday is not a lucky number!</div>
+                    <img src="./images/oops.jpg"/>
+                 </div>
+                
+             </section>
+             <section class="connect">
+                <div>
+                    <p style="font-weight: bold">Say hello here:</p>
+                    <ul class="list-no-bullet">
+                        <li class="list-item-inline">
+                          <a class="link"
+                            target="_blank"
+                            href="https://www.linkedin.com/in/aishwarya-biradar-60b8b7104/"
+                          >
+                            <img src="/images/linkedin.svg"
+                          /></a>
+                        </li>
+                        <li class="list-item-inline">
+                          <a class="link"
+                            href="https://twitter.com/Aishwar85262843"
+                            target="_blank"
+                            ><img src="/images/twitter.svg"
+                          /></a>
+                        </li>
+                        <li class="list-item-inline">
+                          <a class="link"
+                            target="_blank"
+                            href="https://www.instagram.com/aishwarya_biradar64/"
+                            ><img src="/images/instagram.svg"
+                          /></a>
+                        </li>
+                      </ul>
+                      <a href="#notice" id="policy">Privacy policy</a>
+                </div>
+             </section>
+             
+            </div>
+            
+            
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

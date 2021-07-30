@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg{
+    background-image: url(/images/bday.png);   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.main{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+
+.heading{
+    background-color: rgb(0 0 0 / 23%);
+    padding: 2rem;
+    margin: 2rem 0;
+    font-size: xxx-large;
+    color: black;
+}
+
+#policy{
+    color: black;
+    font-size: smaller;
+}
+
+.label{
+    font-weight: bold;
+    font-size: x-large;
+    margin: 2rem 0rem;
+}
+
+.form-birthday{
+    background-color: rgb(0 0 0 / 23%);
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+input{
+    padding: 0.5rem;
+    width: 35%;
+}
+
+.section-notice{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
+
+#notice{
+    display: flex;
+    border: 1px solid red;
+    color: #f44336;
+    padding: 0.5rem;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(0 0 0 / 55%);
+}
+
+
+#notice a{
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: red;
+}
+
+#check{
+    margin: 2rem 0 0 0;
+    padding: 0.5rem 1rem;
+    background-color: aquamarine;
+    border: none;
+    font-weight: bold;
+}
+
+#check:hover{
+    cursor: pointer;
+}
+
+.output{
+    background-color: rgb(0 0 0 / 55%);
+    padding: 2rem;
+    margin: 2rem 0;
+    font-weight: bold;
+    color: white;
+}
+
+#happy{
+    display: none;
+}
+
+#oops{
+    display: none;
+    
+}
+
+.output img{
+    width: 40%;
+    margin: 1rem 0rem;
+}
+
+.list-no-bullet{
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-item-inline{
+    display: inline; 
+    padding: 0rem 1rem;   
+}
+
+.list-no-bullet li a{
+    margin: 1rem 0.5rem 0.5rem 0rem;
+}
+
+.connect{
+    background-color: rgb(0 0 0 / 23%);
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.output{
+    display: none;
+}
